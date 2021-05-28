@@ -1,6 +1,6 @@
 # DriveBy
 
-Set a speed limit to which the players can shoot out of the car.
+Set a speed limit up to which the players can shoot out of the car.
 
 ## Start
 1. Add the folder to your resources
