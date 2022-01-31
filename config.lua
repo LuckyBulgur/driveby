@@ -1,6 +1,6 @@
-sc0tt_lucky_driveby = {}
+Config = {}
 
-sc0tt_lucky_driveby.ped = GetPlayerPed(-1) --Please dont edit
-sc0tt_lucky_driveby.player = PlayerId() --Please dont edit
+Config.ped = GetPlayerPed(-1) --Please dont edit
+Config.player = PlayerId() --Please dont edit
 
-sc0tt_lucky_driveby.kmh = 100 -- Up to wich speed you can shoot
+Config.kmh = 80 -- Up to wich speed you can shoot

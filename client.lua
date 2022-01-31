@@ -4,15 +4,15 @@ Citizen.CreateThread(function()
 			local canshoot = false
 			local kmhSpeed = GetEntitySpeed(GetVehiclePedIsUsing(PlayerPedId(-1))) * 3.6;
 
-			if kmhSpeed < sc0tt_lucky_driveby.kmh then
+			if kmhSpeed < Config.kmh then
 				canshoot = true
 			else
 				canshoot = false
 			end
-			SetPlayerCanDoDriveBy(sc0tt_lucky_driveby.player, canshoot)
+			SetPlayerCanDoDriveBy(Config.player, canshoot)
 		end
 		Citizen.Wait(0);
 	end
 end)
 
-SetPlayerCanDoDriveBy(sc0tt_lucky_driveby.player, false)
+SetPlayerCanDoDriveBy(Config.player, false)
